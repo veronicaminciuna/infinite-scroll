@@ -32,3 +32,13 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Image container */
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
