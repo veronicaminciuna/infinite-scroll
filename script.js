@@ -66,7 +66,8 @@ async function getPhotos() {
 }
 
 window.addEventListener('scroll', () => {
-    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000) {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 && ready) {
+        rwady = false;
         getPhotos();
     }
 })
