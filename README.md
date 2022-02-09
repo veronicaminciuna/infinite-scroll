@@ -1,1 +1,5 @@
-# Infinite Scroll of Unsplash API built with JavaScript, Html, and CSS
+# Infinite Scroll 
+<ul>
+<li>Fetching Images via the Unsplash API</li>
+<li>Built with JavaScript, Html, and CSS</li>
+  </ul>
